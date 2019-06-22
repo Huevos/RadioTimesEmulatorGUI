@@ -1,0 +1,5 @@
+Package: enigma2-plugin-systemplugins-radiotimesemulatorgui
+Version: 1.0-r0
+Description: Creates XML files from OpenTV for use by EPG-Import plugin...
+Maintainer: Huevos
+Depends: radiotimesxmltvemulator
