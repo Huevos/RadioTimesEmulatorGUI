@@ -4,13 +4,13 @@
 	  </prerequisites>
           <info>
                     <author>Huevos</author>
-                    <name>MIS/PLS LCN Scan</name>
-                    <packagename>enigma2-plugin-systemplugins-misplslcnscan</packagename>
-                    <shortdescription>Scans multiple input streams</shortdescription>
-                    <description>Scans multiple input streams and creates a user bouquet, ordered by logical channel numbers.</description>
+                    <name>Radio Times Emulator GUI</name>
+                    <packagename>enigma2-plugin-systemplugins-radiotimesemulatorgui</packagename>
+                    <shortdescription>Creates XML files from OpenTV</shortdescription>
+                    <description>Creates XML files from OpenTV for use by EPG-Import plugin</description>
           </info>
 
 	  <files type="package"> <!-- without version, without .ipk -->
-		<file type="package" name="enigma2-plugin-systemplugins-misplslcnscan" />
+		<file type="package" name="enigma2-plugin-systemplugins-radiotimesemulatorgui" />
 	</files>
 </default>
