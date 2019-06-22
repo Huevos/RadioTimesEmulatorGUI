@@ -1,14 +1,15 @@
 #
 # Note for people skinning the scan screen...
 #
-# There are six skinable outputs as follows:
+# There are seven skinable outputs as follows:
 #
 # 1) self["Frontend"] > FrontendStatus
 # 2) self["action"] > Label, 
-# 3) self["status"] > Label,
-# 4) self["tuner_text"] > Label, This is the tuner letter
-# 5) self["progress"] > ProgressBar
-# 6) self["progress_text"] > Progress
+# 3) self["actionLong"] > Label, 
+# 4) self["status"] > Label,
+# 5) self["tuner_text"] > Label, This is the tuner letter
+# 6) self["progress"] > ProgressBar
+# 7) self["progress_text"] > Progress
 #
 
 import os
