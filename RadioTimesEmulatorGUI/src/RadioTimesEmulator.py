@@ -359,7 +359,7 @@ class RadioTimesEmulator(Screen):
 				 	with open(dest_filename, "w") as d:
 				 		d.write(s.read())
 				 		d.close()
-				 	s.close
+				 	s.close()
 			except IOError:
 				print "[RadioTimesEmulator] failed to copy %s to %s" % (src_filename, dest_filename)
 		self.progresscurrent += 1
